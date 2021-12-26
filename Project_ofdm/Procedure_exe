@@ -1,0 +1,22 @@
+mcc -m project_ofdm_gui.m -a project_ofdm_gui.fig
+  
+  To get started, type one of these: helpwin, helpdesk, or demo. 
+  For product information, visit www.mathworks.com. 
+  
+project_ofdm_gui
+??? Error using ==> imread
+File "sample.bmp" does not exist.
+
+Error in ==> <a href="error:C:\MATLAB701\work\project_ofdm\Project ofdm_exe\project_ofdm_gui.m,114,1">project_ofdm_gui>pushbutton1_Callback at 114</a>
+    data=imread(input_file);
+
+Error in ==> <a href="error:C:\MATLAB701\toolbox\matlab\uitools\gui_mainfcn.m,75,1">gui_mainfcn at 75</a>
+        feval(varargin{:});
+
+Error in ==> <a href="error:C:\MATLAB701\work\project_ofdm\Project ofdm_exe\project_ofdm_gui.m,45,1">project_ofdm_gui at 45</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+??? Error while evaluating uicontrol Callback.
+
+project_ofdm_gui
+diary off
